@@ -6,11 +6,12 @@ Este proyecto en Python permite solicitar los nombres y las notas de 3 estudiant
  y ejecuta el siguiente comando --> git clone https://github.com/Skarletcastillo/EvaluacionPrimerMomentoPython.git
 ° Cd y el nombre del proyecto --> cd EvaluacionPrimerMomentoPython
 ° Ejecutamos el comando --> code .
-
-# Uso del programa
 ° Abrir terminal de visual --> Windows + ñ
 ° Crear el entorno virtual --> python -m venv venv
 ° Activar el entorno virtual .\.venv\Scripts\activate
+° Activar las dependecias del codigo con el comando --> pip install -r requirements.txt
+
+# Uso del programa
 ° Para ejecutar colocamos --> python main.py
 ° Nos va preguntar 3 nombres y 3 notas de estudiantes (primero el nombre seguido de la nota) del cual calcula el promedio
 ° Al terminar muestra el mensaje "¡Ejercicio guardado en 'ejercicio5.xlsx'!"
